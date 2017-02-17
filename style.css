@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 2000px;
+    font-family: MyriadProRegular;
+    font-size: 1em;
+    color: #333333;
+}
+
+#wrapper {
+    margin: 200px auto 0 auto;
+    width: 523px;
+    position: relative;
+}
+
+.page {
+    width: 523px;
+    height: 750px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+#top-page {
+    background-color: #ebebeb;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 34px;
+}
+
+    #top-page header {
+        padding-top: 38px;
+    }
+
+    #top-page p {
+        font-size: 0.75em;
+        line-height: 1.2;
+        text-align: left;
+    }
+
+    #top-page figure + figure {
+        margin-top: 14px;
+    }
+
+    #top-page figure img + img {
+        float: right;
+    }
+
+    #top-page footer p {
+        font-size: 9px;
+        padding-top: 22px;
+        text-align: center;
+    }
+
+    #top-page div.bookmark {
+        background-color: #f68e56;
+        position: absolute;
+        left: 494px;
+        top: 40px;
+    }
+
+#middle-page {
+    background-color: #cccccc;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+    #middle-page div.bookmark {
+        background-color: #39b54a;
+        position: absolute;
+        left: 462px;
+        top: 43px;
+    }
+
+#bottom-page {
+    background-color: #acacac;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+    #bottom-page div.bookmark {
+        background-color: #00aeef;
+        position: absolute;
+        left: 430px;
+        top: 48px;
+    }
+
+h1 {
+    padding: 0 0 10px 0;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+h2 {
+    padding: 17px 0 22px 0;
+    font-size: 1.125em;
+    font-weight: normal;
+}
+
+#image-1 {
+    box-sizing: content-box;
+    float: left;
+    width: 207px;
+    height: 111px;
+    padding: 0 20px 10px 0;
+}
+
+#image-2 {
+    box-sizing: content-box;
+    float: right;
+    width: 140px;
+    height: 140px;
+    padding-left: 5px;
+}
+
+section:after {
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+
+.bookmark {
+    height: 35px;
+    width: 111px;
+    border: 2px solid black;
+    border-radius: 0 10px 10px 0;
+}
+
+#social-links {
+    width: 87px;
+    height: 69px;
+    border: 1px solid #362f2d;
+    background-color: #fbaf5d;
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+}
+
+    #social-links:after {
+        content: "";
+        display: block;
+        visibility: hidden;
+        height: 0;
+        clear: both;
+    }
+
+    #social-links p {
+        padding: 7px 0;
+        text-align: center;
+    }
+
+    #social-links figure {
+        margin: 0 auto;
+        width: 84px;
+    }
+
+    #social-links a {
+        width: 25px;
+        height: 25px;
+        display: inline-block;
+        background-size: 75% 75%;
+        background-position: center center;
+    }
+
+        #social-links a:hover {
+            background-size: 100% 100%;
+        }
+
+#facebook {
+    background: url('img/facebook.png') 100% 100% no-repeat;
+}
+
+#twitter {
+    background: url('img/twitter.png') 100% 100% no-repeat;
+}
+
+#instagram {
+    background: url('img/instagram.png') 100% 100% no-repeat;
+}
+
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"), url("fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
