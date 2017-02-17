@@ -32,10 +32,6 @@ body {
     padding: 0 34px;
 }
 
-    #top-page header {
-        padding-top: 38px;
-    }
-
     #top-page p {
         font-size: 0.75em;
         line-height: 1.2;
@@ -92,7 +88,7 @@ body {
     }
 
 h1 {
-    padding: 0 0 10px 0;
+    padding: 38px 0 10px 0;
     font-size: 1.5em;
     font-weight: normal;
 }
@@ -119,7 +115,7 @@ h2 {
     padding-left: 5px;
 }
 
-section:after {
+article:after {
     content: ".";
     display: block;
     height: 0;
