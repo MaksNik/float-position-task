@@ -35,7 +35,6 @@ body {
     #top-page p {
         font-size: 0.75em;
         line-height: 1.2;
-        text-align: left;
     }
 
     #top-page figure + figure {
@@ -57,6 +56,10 @@ body {
         position: absolute;
         left: 494px;
         top: 40px;
+    }
+
+    #top-page article p{
+        margin-bottom: 16px;
     }
 
 #middle-page {
